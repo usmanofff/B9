@@ -1,0 +1,8 @@
+---
+# vars file for deploy_artifactory
+
+
+artifactory_home: /opt/jfrog/artifactory/app/misc/etc
+artifactory_logs: /opt/jfrog/artifactory/var/log
+
+artifactory_package: jfrog-artifactory-{{ artifactory_flavour }}

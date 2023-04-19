@@ -1,0 +1,7 @@
+---
+- name: deploy aaps on srvers
+  hosts: linux_servers
+  gather_facts: yes
+  become: yes
+  roles:
+    - deploy_artifactory
